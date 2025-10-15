@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Biodata & Control Panel Hosting</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .biodata {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .biodata img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-right: 20px;
+            border: 2px solid #007BFF;
+        }
+
+        .biodata-info p {
+            margin: 8px 0;
+            font-size: 16px;
+        }
+
+        .hosting-section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            align-items: flex-start;
+        }
+
+        .hosting-text {
+            flex: 2;
+        }
+
+        .hosting-text p {
+            text-align: justify;
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+
+        .hosting-images {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .hosting-images img {
+            width: 100%;
+            height: auto;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        @media (max-width: 768px) {
+            .biodata {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .biodata img {
+                margin-bottom: 15px;
+            }
+
+            .hosting-section {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Profil & Penjelasan Hosting</h1>
+</header>
+
+<div class="container">
+
+    <!-- Biodata Section -->
+    <section class="biodata">
+        <img src="https://via.placeholder.com/150" alt="Foto Profil">
+        <div class="biodata-info">
+            <p><strong>Nama:</strong> [Nama Anda]</p>
+            <p><strong>Hobi:</strong> [Contoh: Membaca, Menulis, Coding]</p>
+            <p><strong>Alamat:</strong> [Alamat Anda]</p>
+            <p><strong>Cita-Cita:</strong> [Contoh: Menjadi Developer Profesional]</p>
+        </div>
+    </section>
+
+    <!-- Control Panel Hosting Explanation -->
+    <section class="hosting-section">
+        <div class="hosting-text">
+            <p><strong>Control panel hosting</strong> adalah antarmuka berbasis web yang memudahkan pengguna dalam mengelola layanan hosting mereka. Dengan panel ini, pengguna bisa mengatur file, domain, database, email, dan fitur lainnya tanpa perlu memahami command line atau perintah server yang kompleks.</p>
+
+            <p>Beberapa control panel yang populer seperti cPanel, Plesk, dan DirectAdmin menyediakan dashboard visual yang intuitif. Mereka memungkinkan pengguna untuk melakukan tugas-tugas penting seperti membuat akun email, mengatur SSL, menginstal CMS seperti WordPress, dan memantau penggunaan bandwidth dengan cepat dan mudah.</p>
+
+            <p>Bagi pemula maupun profesional, control panel hosting sangat membantu dalam menghemat waktu dan mempermudah manajemen server. Dengan fitur otomatisasi dan bantuan GUI (Graphical User Interface), pengguna dapat fokus pada pengembangan website tanpa terganggu oleh teknis server-level yang rumit.</p>
+        </div>
+
+        <div class="hosting-images">
+            <img src="https://via.placeholder.com/300x200" alt="Gambar Control Panel 1">
+            <img src="https://via.placeholder.com/300x200" alt="Gambar Control Panel 2">
+        </div>
+    </section>
+
+</div>
+
+</body>
+</html>
